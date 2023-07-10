@@ -1,17 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Quicksand', sans-serif; */
+
 body {
   background-color: #101721;
+  font-family: 'Quicksand', sans-serif;
 }
 
-.app {
-  position: relative;
+.container {
+  /* position: relative; */
+  padding: 0;
+  height: 0;
+  background-image: url('./assets/picture.svg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+  padding-bottom:100%;
 }
 
 img.sun {
   position: absolute;
-  top: 10%;
-  left: auto;
-  right: 20%;
-  z-index: 1;
+  top: 15%;
+  right: 28%;
+  z-index: 0;
 }
 
 img.cloud-left {
@@ -21,7 +35,6 @@ img.cloud-left {
   right: auto;
   z-index: 2;
 
-  animation-delay: 1s;
   animation-duration: 7s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -36,7 +49,6 @@ img.cloud-middle {
   right: auto;
   z-index: 3;
 
-  animation-delay: 1s;
   animation-duration: 12s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -50,7 +62,6 @@ img.cloud-right {
   right: auto;
   z-index: 3;
 
-  animation-delay: 1s;
   animation-duration: 7s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -64,7 +75,6 @@ img.cloud-right-btm {
   right: auto;
   z-index: 3;
 
-  animation-delay: 1s;
   animation-duration: 12s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -91,18 +101,38 @@ img.cloud-right-btm {
   to {left: 40%;}
 }
 
-img.trees-back {
+.trees-container {
+  position:sticky;
+}
+
+.scroll-background {
   position: absolute;
-  top: 65%;
-  left: 0;
-  right: 0;
+  top: 90%;
+  background-color: #101721;
+  min-height: 650px;
+  width: 100%;
+}
+
+img.trees-back {
+  padding-top: 48%;
   z-index: 3;
 }
 
 img.trees {
   position: absolute;
-  top: 75%;
-  left: 0;
-  right: 0;
+  padding-top: 56%;
   z-index: 4;
+}
+
+/* Main Component */
+
+h2 {
+  background: -webkit-linear-gradient(#fecff4 70%, #8c1a5b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  padding-top: 15rem;
+  letter-spacing: 4px;
+  font-size: 4rem;
 }
