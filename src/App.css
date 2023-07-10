@@ -1,0 +1,108 @@
+body {
+  background-color: #101721;
+}
+
+.app {
+  position: relative;
+}
+
+img.sun {
+  position: absolute;
+  top: 10%;
+  left: auto;
+  right: 20%;
+  z-index: 1;
+}
+
+img.cloud-left {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  right: auto;
+  z-index: 2;
+
+  animation-delay: 1s;
+  animation-duration: 7s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-name: cloud-left;
+  
+}
+
+img.cloud-middle {
+  position: absolute;
+  top: 1%;
+  left: 36%;
+  right: auto;
+  z-index: 3;
+
+  animation-delay: 1s;
+  animation-duration: 12s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-name: cloud-middle;
+}
+
+img.cloud-right {
+  position: absolute;
+  top: 1%;
+  left: 70%;
+  right: auto;
+  z-index: 3;
+
+  animation-delay: 1s;
+  animation-duration: 7s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-name: cloud-right;
+}
+
+img.cloud-right-btm {
+  position: absolute;
+  top: 23%;
+  left: 65%;
+  right: auto;
+  z-index: 3;
+
+  animation-delay: 1s;
+  animation-duration: 12s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-name: cloud-right-btm;
+}
+
+@keyframes cloud-left {
+  from {left: 5%;}
+  to {left: 7%;}
+}
+
+@keyframes cloud-right {
+  from {left: 70%;}
+  to {left: 66%;}
+}
+
+@keyframes cloud-right-btm {
+  from {left: 65%;}
+  to {left: 60%;}
+}
+
+@keyframes cloud-middle {
+  from {left: 36%;}
+  to {left: 40%;}
+}
+
+img.trees-back {
+  position: absolute;
+  top: 65%;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+img.trees {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  right: 0;
+  z-index: 4;
+}
