@@ -140,8 +140,13 @@ h2 {
 h4 {
   display: flex;
   justify-content: center;
-  color: #6c84e5;
-  padding-bottom: 2rem;
+  color: #b32a77ec;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  width: 70%;
+  box-shadow: #8c1a5b 0px 5px 5px -3px;
+  
 }
 
 p {
