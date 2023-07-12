@@ -126,6 +126,10 @@ img.trees {
 
 /* Main Component */
 
+.main-container {
+  padding-bottom: 9rem;
+}
+
 h2 {
   background: -webkit-linear-gradient(#fecff4 70%, #8c1a5b);
   -webkit-background-clip: text;
@@ -141,17 +145,50 @@ h4 {
   display: flex;
   justify-content: center;
   color: #b32a77ec;
-  margin: 0 auto;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  width: 70%;
-  box-shadow: #8c1a5b 0px 5px 5px -3px;
   
 }
 
 p {
   padding: .5rem 10%;
   color:#fecff4cd;
+}
+
+/* footer */
+
+.footer {
+  position: relative;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #b32a77ec;
+}
+
+.portfolio {
+  position: absolute;
+  bottom: 200px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+.logos {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 150px;
+  font-size: 2rem;
 }
 
 
@@ -162,6 +199,8 @@ p {
   img.sun {top: 190px}
   p {font-size: 2rem;}
   h4 {font-size: 2rem;}
+  .portfolio {bottom: 280px; font-size: 1.5rem;}
+  .logos {bottom: 210px; font-size: 3rem;} 
 }
 @media screen and (max-width: 1199px){
   h2 {font-size: 4rem; padding-top: 15rem;}
@@ -182,6 +221,8 @@ p {
   img.sun {top: 70px}
   p {font-size: 1.2rem;}
   h4 {font-size: 1rem;}
+  .portfolio {bottom: 150px; font-size: .8rem;}
+  .logos {bottom: 110px; font-size: 1.5rem;} 
 }
 @media screen and (max-width: 500px){
   h2 {font-size: 1.5rem; padding-top: 5rem;}
@@ -189,6 +230,8 @@ p {
   img.sun {top: 50px}
   p {font-size: .8rem;}
   h4 {font-size: .9rem;}
+  .portfolio {bottom: 120px; font-size: .8rem;}
+  .logos {bottom: 80px; font-size: 1.5rem;} 
 }
 @media screen and (max-width: 400px){
   h2 {font-size: 1.2rem; padding-top: 4rem;}

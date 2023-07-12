@@ -9,6 +9,7 @@ import sun from "./assets/sun.svg"
 import treesBack from "./assets/trees-back.svg"
 import trees from "./assets/trees.svg"
 import Main from './components/Main'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <img className="trees-back" src={treesBack} alt='' style={{width: '100%'}} />
         <div className='scroll-background'>
         <Main />
+        <Footer />
         </div>
       </div>
       <img className="sun" src={sun} alt='' style={{width: '20%'}}/>
