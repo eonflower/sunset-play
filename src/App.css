@@ -23,7 +23,7 @@ body {
 
 img.sun {
   position: absolute;
-  top: 15%;
+  top: 200px;
   right: 28%;
   z-index: 0;
 }
@@ -133,6 +133,62 @@ h2 {
   display: flex;
   justify-content: center;
   padding-top: 15rem;
+  margin-bottom: .5rem;
   letter-spacing: 4px;
-  font-size: 4rem;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  color: #6c84e5;
+  padding-bottom: 2rem;
+}
+
+p {
+  padding: .5rem 10%;
+  color:#fecff4cd;
+}
+
+
+
+@media screen and (min-width: 1200px){
+  h2 {font-size: 5rem; padding-top: 15rem;}
+  img.cloud-right-btm {top: 270px}
+  img.sun {top: 190px}
+  p {font-size: 2rem;}
+  h4 {font-size: 2rem;}
+}
+@media screen and (max-width: 1199px){
+  h2 {font-size: 4rem; padding-top: 15rem;}
+  img.cloud-right-btm {top: 190px}
+  img.sun {top: 120px}
+  p {font-size: 1.7rem;}
+  h4 {font-size: 1.2rem;}
+}
+@media screen and (max-width: 899px){
+  h2 {font-size: 3rem; padding-top: 13rem;}
+  img.cloud-right-btm {top: 150px}
+  img.sun {top: 90px}
+  p {font-size: 1.4rem;}
+  }
+@media screen and (max-width: 700px){
+  h2 {font-size: 2rem; padding-top: 8rem;}
+  img.cloud-right-btm {top: 110px}
+  img.sun {top: 70px}
+  p {font-size: 1.2rem;}
+  h4 {font-size: 1rem;}
+}
+@media screen and (max-width: 500px){
+  h2 {font-size: 1.5rem; padding-top: 5rem;}
+  img.cloud-right-btm {top: 90px}
+  img.sun {top: 50px}
+  p {font-size: .8rem;}
+  h4 {font-size: .9rem;}
+}
+@media screen and (max-width: 400px){
+  h2 {font-size: 1.2rem; padding-top: 4rem;}
+  img.cloud-right-btm {top: 70px}
+  img.sun {top: 35px}
+  p {font-size: .7rem;}
+  h4 {font-size: .8rem;}
 }
