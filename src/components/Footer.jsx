@@ -1,4 +1,3 @@
-import React from 'react'
 import trees from '../assets/bottom-trees.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'

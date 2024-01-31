@@ -1,10 +1,10 @@
-import React from 'react'
+/* eslint-disable react/no-unescaped-entities */
 
 export default function Main() {
 	return (
 		<div className='main-container'>
 			<h2>The Truth of Pine</h2>
-			<h4>a short poem by Aloe</h4>
+			<h4>a short poem</h4>
 			<p>
 				What if pining meant that I could finally be a tree? Instead of pining over love, I'd be a hemlock. 
 				Don't mistake these tiny cones for a lack of power or jurisdiction in the world. 

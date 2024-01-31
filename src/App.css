@@ -29,7 +29,7 @@ img.sun {
 }
 
 img.cloud-left {
-  position: absolute;
+  position: fixed;
   top: 0%;
   left: 5%;
   right: auto;
@@ -43,7 +43,7 @@ img.cloud-left {
 }
 
 img.cloud-middle {
-  position: absolute;
+  position: fixed;
   top: 1%;
   left: 36%;
   right: auto;
@@ -56,7 +56,7 @@ img.cloud-middle {
 }
 
 img.cloud-right {
-  position: absolute;
+  position: fixed;
   top: 1%;
   left: 70%;
   right: auto;
@@ -69,7 +69,7 @@ img.cloud-right {
 }
 
 img.cloud-right-btm {
-  position: absolute;
+  position: fixed;
   top: 23%;
   left: 65%;
   right: auto;
@@ -103,6 +103,7 @@ img.cloud-right-btm {
 
 .trees-container {
   position:sticky;
+  z-index: 10;
 }
 
 .scroll-background {
@@ -127,7 +128,7 @@ img.trees {
 /* Main Component */
 
 .main-container {
-  padding-bottom: 9rem;
+  padding-bottom: 15rem;
 }
 
 h2 {
@@ -159,6 +160,11 @@ p {
 
 .footer {
   position: relative;
+}
+
+.footer-trees {
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-links {
@@ -201,6 +207,7 @@ p {
   h4 {font-size: 2rem;}
   .portfolio {bottom: 280px; font-size: 1.5rem;}
   .logos {bottom: 210px; font-size: 3rem;} 
+  
 }
 @media screen and (max-width: 1199px){
   h2 {font-size: 4rem; padding-top: 15rem;}
@@ -208,6 +215,7 @@ p {
   img.sun {top: 120px}
   p {font-size: 1.7rem;}
   h4 {font-size: 1.2rem;}
+  .main-container {padding-bottom: 25rem;}
 }
 @media screen and (max-width: 899px){
   h2 {font-size: 3rem; padding-top: 13rem;}
@@ -223,6 +231,7 @@ p {
   h4 {font-size: 1rem;}
   .portfolio {bottom: 150px; font-size: .8rem;}
   .logos {bottom: 110px; font-size: 1.5rem;} 
+  .main-container {padding-bottom: 20rem;}
 }
 @media screen and (max-width: 500px){
   h2 {font-size: 1.5rem; padding-top: 5rem;}

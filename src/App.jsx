@@ -1,10 +1,8 @@
-import React from 'react'
 import './App.css'
 import cloudLeft from "./assets/cloud-left.svg"
 import cloudRight from "./assets/cloud-right.svg"
 import cloudRightBtm from "./assets/cloud-right-btm.svg"
 import cloudMiddle from "./assets/cloud-middle.svg"
-import picture from "./assets/picture.svg"
 import sun from "./assets/sun.svg"
 import treesBack from "./assets/trees-back.svg"
 import trees from "./assets/trees.svg"
